@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Home - Caprisa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<img src="~/Content/duran inc/img/billboard.jpg" height="500" width="1200"/>
+<p style="text-align:center; font-size:large; font-weight:bold">
+    The CAPRISA ("Centre for the AIDS Programme of Research in South Africa")
+       Automated Participant appointment scheduling system..
+</p>
+<br />
+<br />
+<br />
+<br />
+<br />
+    <table>
+        <tr>
+            <td>
+                <h3>@Html.ActionLink("About Us", "About", "Home")</h3>
+            </td>
+            <td><h3>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</h3></td>
+            <td>
+                <h3>@Html.ActionLink("Contact", "Contact", "Home")</h3>
+            </td>
+            <td><h3>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</h3></td>
+            <td>
+                <h3>@Html.ActionLink("Research Clinics", "Sites", "Home")</h3>
+            </td>
+        </tr>
+    </table>
+

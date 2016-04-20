@@ -1,0 +1,36 @@
+﻿@model IEnumerable<CaprisaProject.ViewModels.EnrollmentDateGroup>
+
+@{
+    ViewBag.Title = "Participant Enrollment Per Day Analytics";
+}
+<h2>Participant Enrollment Analytics</h2>
+<table>
+    <tr>
+        <th>
+            Enrollment Date
+        </th>
+        <th>
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+        </th>
+        <th>
+            Participants
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        
+        
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem=>item.EnrollmentDate)
+            </td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+                @item.ParticipantCount
+            </td>
+        </tr>
+        
+    }
+</table>
+
+

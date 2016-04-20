@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Caprisa Scheduler";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Participant Appointment Calender</h2>
+<div class="scheduler_container">
+    @Html.Raw(Model.Render())
+</div>
+
+

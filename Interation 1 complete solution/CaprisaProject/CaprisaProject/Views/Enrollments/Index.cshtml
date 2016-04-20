@@ -1,0 +1,56 @@
+﻿@model IEnumerable<CaprisaProject.Models.Enrollment>
+
+@{
+    ViewBag.Title = "Enrollments of Participants to Studies";
+}
+
+<h2>Enrollments</h2>
+
+<p>
+    @Html.ActionLink("Enroll Participant to Study", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model=>model.Participant.ParticipantCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Participant.PhoneNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Study.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Site)
+        </th>
+        <th>
+            
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem=>item.Participant.ParticipantCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Participant.PhoneNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Study.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Site)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.EnrollmentID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.EnrollmentID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.EnrollmentID }) 
+       
+         </td>
+    </tr>
+}
+
+</table>
+@Html.ActionLink("Enrollment Stats", "Statistics", "Home")
+

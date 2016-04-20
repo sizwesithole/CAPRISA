@@ -1,0 +1,126 @@
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\csc.exe
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\vbc.exe
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\CaprisaProject.Tests.dll.config
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\CaprisaProject.Tests.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\CaprisaProject.Tests.pdb
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\CaprisaProject.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Newtonsoft.Json.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.Helpers.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.Mvc.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.Razor.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.WebPages.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Owin.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.Optimization.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Owin.Security.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Owin.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\EntityFramework.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\CaprisaProject.pdb
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Newtonsoft.Json.xml
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.Helpers.xml
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.Mvc.xml
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.Razor.xml
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.WebPages.xml
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Owin.xml
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.Optimization.xml
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Owin.Security.xml
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\EntityFramework.xml
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\obj\Debug\CaprisaProject.Tests.csprojResolveAssemblyReference.cache
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\obj\Debug\CaprisaProject.Tests.dll
+c:\users\bondjobe\documents\visual studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\obj\Debug\CaprisaProject.Tests.pdb
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Rotativa.Core.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Rotativa.MVC.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Rotativa.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\DHTMLX.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\DHTMLX.pdb
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\CaprisaProject\CaprisaProject.Tests\bin\Debug\DHTMLX.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\CaprisaProject.Tests.dll.config
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\CaprisaProject.Tests.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\CaprisaProject.Tests.pdb
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\CaprisaProject.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\DHTMLX.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Rotativa.Core.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Rotativa.MVC.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Owin.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\EntityFramework.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Rotativa.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\CaprisaProject.pdb
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\DHTMLX.pdb
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\DHTMLX.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\EntityFramework.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\obj\Debug\CaprisaProject.Tests.csprojResolveAssemblyReference.cache
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\obj\Debug\CaprisaProject.Tests.dll
+C:\Users\BondJobe\Documents\Visual Studio 2015\Projects\Backup\Interation 1 complete solution\CaprisaProject\CaprisaProject.Tests\obj\Debug\CaprisaProject.Tests.pdb

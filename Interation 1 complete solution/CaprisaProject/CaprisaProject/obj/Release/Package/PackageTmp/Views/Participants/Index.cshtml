@@ -1,0 +1,64 @@
+﻿@model IEnumerable<CaprisaProject.Models.Participant>
+
+
+@{
+    ViewBag.Title = "Participants";
+}
+
+<h2>Participants</h2>
+
+<p>
+    @Html.ActionLink("Create New Participant", "Create")
+
+</p>
+@using (Html.BeginForm())
+{
+    <p>
+        Find By Name or Phone Number: @Html.TextBox("SearchString")
+        <input type="submit" value="Search" /> 
+    </p>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Participant Code", "Index", new { sortOrder = ViewBag.NameSortParm })
+        </th>
+        <th>
+            @Html.ActionLink("Enrollment Date", "Index", new { sortOrder = ViewBag.DateSortParm })
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </th>
+        <th>
+            @Html.ActionLink("Site", "Index", new { sortOrder = ViewBag.SiteSortParm })
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ParticipantCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EnrollmentDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Site)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ParticipantCode }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ParticipantCode }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ParticipantCode })
+            </td>
+        </tr>
+    }
+
+</table>
+@Html.ActionLink("Reset View", "Index") <br/>
+@Html.ActionLink("Generate PDF Version of Participants List", "GeneratePDF")

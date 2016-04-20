@@ -1,0 +1,46 @@
+﻿@model IEnumerable<CaprisaProject.Models.Participant>
+
+@{
+    ViewBag.Title = "GetParticipants";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Participants list</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.EnrollmentDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Site)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.EnrollmentDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhoneNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Site)
+        </td>
+        <td>
+            @*@Html.ActionLink("Edit", "Edit", new { id=item.ParticipantCode }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ParticipantCode }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ParticipantCode })*@
+        </td>
+    </tr>
+}
+
+</table>

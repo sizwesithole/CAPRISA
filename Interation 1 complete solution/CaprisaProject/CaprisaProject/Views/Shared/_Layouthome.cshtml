@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/duran inc/")css/reset.css">
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/duran inc/")css/main_responsive.css">
+    <script type="text/javascript" src="@Url.Content("~/Content/duran inc/")js/jquery.js"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/duran inc/")js/carouFredSel.js"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/duran inc/")js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <img src="@Url.Content("~/Content/duran inc/")img/logo.png" alt="CodeMasters" class="logo">
+            <a href="#" class="menu_icon" id="menu_icon"></a>
+            <nav id="nav_menu">
+                <ul class="nav navbar-nav">
+                    <li>@Html.Partial("_LoginPartial")</li>
+                 </ul>
+
+                
+                @*<ul>
+                        <li><a href="#"></a>@Html.ActionLink("Administration", "Login", "Account")</li>
+                        <li><a href="#"></a>@Html.ActionLink("Cohort Coordinator", "Index", "CohortCoordinators")</li>
+                        <li>@Html.ActionLink("Participants", "Index", "Participants")</li>
+                        <li>@Html.ActionLink("Studies", "Index", "Studies")</li>
+                        <li>@Html.ActionLink("Enrollments", "Index", "Enrollments")</li>
+
+                        <li><a href="#">Outreach</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>*@
+
+            </nav>
+
+            <ul class="social">
+                <li><a class="fb" href="#"></a></li>
+                <li><a class="twitter" href="#"></a></li>
+                <li><a class="gplus" href="#"></a></li>
+            </ul>
+        </div>
+    </header><!--  End Header  -->
+
+
+    <section class="billboard">
+        <div class="wrapper">
+            <div class="caption">
+                <p>Centre For Aids Programme Of </p>
+                <p>Research in South Africa</p>
+            </div>
+        </div>
+    </section><!--  End Billboard  -->
+    <div>
+
+        @RenderBody()
+    </div>
+
+
+    <section class="testimonials wrapper">
+
+        <span class="sep_line sep_top">
+        </span>
+
+        <h2>About Us</h2>
+        <div class="testi_slider" id="tslider">
+            <div class="t">
+                <p>
+                    CAPRISA was created in 2001 and formally established in 2002 under
+                    the NIH-funded Comprehensive International Program
+                    of Research on AIDS (CIPRA) by five partner institutions
+                    ; University of KwaZulu-Natal, University of Cape Town
+                    , University of Western Cape, National Institute for
+                    Communicable Diseases, and Columbia University in
+                    New York. CAPRISA is a designated UNAIDS Collaborating
+                    Centre for HIV Prevention Research.
+                </p>
+                <p class="author">CodeMasters</p>
+            </div>
+            <div class="t">
+                <p>The main goal of CAPRISA is to undertake globally relevant and locally responsive research that contributes to understanding HIV pathogenesis, prevention and epidemiology as well as the links between tuberculosis and AIDS care.</p>
+                <p class="author">CodeMasters</p>
+            </div>
+            <div class="t">
+                <p>To achieve this goal, CAPRISA conducts research in four main Scientific Programmes namely: HIV Pathogenesis and vaccines, HIV and TB treatment, Microbicides, and Prevention and Epidemiology. A fifth area of research on the prevention of mother-to-child transmission is conducted mainly in partnership with other Centres. Each program has a focused set of projects. Research activities at CAPRISA are supported by eight support cores including, administration, statistics, data management, laboratory, community, pharmacy, bioethics, and information systems.</p>
+                <p class="author">CodeMasters</p>
+            </div>
+        </div>
+        <div id="t_navigation"></div>
+        <span class="sep_line sep_bottom"></span>
+
+    </section><!--  End Testimonials  -->
+
+</body>
+</html>
