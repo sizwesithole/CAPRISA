@@ -19,7 +19,7 @@ namespace CaprisaProject.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         [Required]
-        [Display(Name ="Participant Code")]
+        [Display(Name ="Participant ID")]
         [DataType(DataType.Text,ErrorMessage ="A participant code is required.")]
         public string ParticipantCode { get; set; }
 
