@@ -14,6 +14,10 @@ namespace CaprisaProject.Controllers
 {
     public class AppointmentController : Controller
     {
+        public ActionResult testMethod()
+        {
+            return View();
+        }
         private CaprisaContext db = new CaprisaContext();
         // GET: Appointment
         [Authorize]
