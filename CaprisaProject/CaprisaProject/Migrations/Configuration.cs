@@ -1,5 +1,7 @@
 namespace CaprisaProject.Migrations
 {
+    using Microsoft.AspNet.Identity;
+    using Microsoft.AspNet.Identity.EntityFramework;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -9,7 +11,8 @@ namespace CaprisaProject.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
+            ContextKey = "CaprisaProject.Models.ApplicationDbContext";
         }
 
         protected override void Seed(CaprisaProject.Models.ApplicationDbContext context)
@@ -26,6 +29,16 @@ namespace CaprisaProject.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
+            var RoleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
+            string[] roleNames = { "Admin", "Superuser", "User" };
+            IdentityResult roleResult;
+            foreach (var roleName in roleNames)
+            {
+                if (!RoleManager.RoleExists(roleName))
+                {
+                    roleResult = RoleManager.Create(new IdentityRole(roleName));
+                }
+            }
         }
     }
 }

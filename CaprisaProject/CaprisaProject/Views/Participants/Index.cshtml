@@ -8,7 +8,16 @@
 <h2>Participants</h2>
 
 <p>
-    @Html.ActionLink("Create New Participant", "Create")
+     @if (User.IsInRole("Admin"))
+     {
+        @Html.ActionLink("Create New Participant", "Create")
+     }
+     else if ((User.IsInRole("User")))
+     {
+        @Html.ActionLink("Create New Participant", "Create")
+     }
+    
+   
 
 </p>
 @using (Html.BeginForm())
@@ -51,10 +60,27 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Site)
             </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.ParticipantCode }) |
+            <td> 
+                 @if (User.IsInRole("Admin"))
+                    {
+                        @Html.ActionLink("Edit", "Edit", new { id = item.ParticipantCode })<p></p>
+                        @Html.ActionLink("Details", "Details", new { id = item.ParticipantCode })<p></p>
+                        @Html.ActionLink("Delete", "Delete", new { id = item.ParticipantCode })
+                 }
+                 else if (User.IsInRole("Superuser"))
+                 {
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ParticipantCode })<p></p>
+                    @Html.ActionLink("Details", "Details", new { id = item.ParticipantCode })<p></p>
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ParticipantCode })
+                 }
+                 else if ((User.IsInRole("User")))
+                 {
+                    @Html.ActionLink("Details", "Details", new { id = item.ParticipantCode })<p></p>
+                 }
+                
+                @*@Html.ActionLink("Edit", "Edit", new { id = item.ParticipantCode }) |
                 @Html.ActionLink("Details", "Details", new { id = item.ParticipantCode }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.ParticipantCode })
+                @Html.ActionLink("Delete", "Delete", new { id = item.ParticipantCode })*@
             </td>
         </tr>
     }

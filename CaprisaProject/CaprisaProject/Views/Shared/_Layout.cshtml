@@ -19,6 +19,28 @@
                 </button>
                 @Html.ActionLink("CAPRISA", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
+            @if (User.Identity.IsAuthenticated)
+            {
+                if (User.IsInRole("Admin"))
+                {
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Participants", "Index", "Participants")</li>
+                            <li>@Html.ActionLink("Studies", "Index", "Studies")</li>
+                            <li>@Html.ActionLink("Enrollments", "Index", "Enrollments")</li>
+                            <li>@Html.ActionLink("Scheduler", "Index", "Appointment")</li>
+                            <li>@Html.ActionLink("Role Mangement", "SelectUser", "RoleManagement")</li>
+                            <li>@Html.ActionLink("Reset Password", "SelectUser", "RoleManagement")</li>
+                            <li>@Html.ActionLink("Register User", "Register", "Account")</li>
+                           
+                        </ul>
+                        @Html.Partial("_LoginPartial")
+                    </div>
+                }
+
+                else if (User.IsInRole("Superuser") || User.IsInRole("User"))
+                {
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
@@ -34,6 +56,27 @@
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
+                }
+                else
+                {
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                       
+
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+                }
+
+            }
+            else
+            {
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav"></ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+            }
         </div>
     </div>
     <div class="container body-content">

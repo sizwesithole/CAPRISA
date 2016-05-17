@@ -1,0 +1,101 @@
+﻿
+@model IEnumerable<CaprisaProject.Models.UserRole>
+
+@{
+    ViewBag.Title = "CurrentRole";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Current User Roles</h2>
+<br />
+@{
+
+    <table>
+        <tr>
+            <th>@ViewBag.Name</th>
+
+        </tr>
+        <tr>
+
+        </tr>
+
+        @{
+            int i = 0;
+        }
+        @foreach (var item in Model)
+        {
+
+            if (item.Role.Equals("NO ROLES ASSIGNED"))
+            {
+
+            }
+            else
+            {
+
+                if (i == 0)
+                {
+                    @Html.ActionLink("Add New Role", "AddNewRole", new { id = item.Id })
+                    i = 1;
+                }
+                else
+                {
+
+                }
+            }
+
+        }
+        <tr>
+
+        </tr>
+        @foreach (var item in Model)
+        {
+
+
+            if (item.Role.Equals("NO ROLES ASSIGNED"))
+            {
+                <tr>
+
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Role)
+                    </td>
+                    <td>
+
+                        @Html.ActionLink("Add New Role", "AddNewRole", new { id = item.Id })
+                    </td>
+                </tr>
+
+            }
+            else
+            {
+                <tr>
+
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Role)
+                    </td>
+                    <td>
+
+                        @Html.ActionLink("Remove From Role", "RemoveRoleFromUser", new { id = item.Id, email = item.name, role = item.Role })
+
+                    </td>
+                </tr>
+            }
+
+        }
+
+
+
+       
+
+
+    </table>
+    <br/>
+
+    <div class="form-actions no-color">
+
+        @Html.ActionLink("Back to List", "SelectUser")
+    </div>
+
+}
+

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<CaprisaProject.Models.ApplicationUser>
+
+
+@{
+    ViewBag.Title = "SelectUser";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+} 
+
+<h2>Select User</h2>
+
+
+
+@using (Html.BeginForm())
+{
+   
+}
+<table class="table">
+    <tr>
+
+
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.ActionLink("Next", "CurrentRole", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
